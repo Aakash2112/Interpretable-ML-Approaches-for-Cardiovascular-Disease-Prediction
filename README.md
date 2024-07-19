@@ -1,0 +1,2 @@
+# Interpretable-ML-Approaches-for-Cardiovascular-Disease-Prediction
+This repository aims to predict which patient is more prone to cardiovascular diseases using different machine learning algorithms, ensemble methods and neural networks while also interpreting these models using techniques such as SHAP, Permutation Importance and Lime to find out which features have the most importance in the model’s predictions.
