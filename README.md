@@ -16,6 +16,13 @@ In the correlation matrix (Refer Below Diagram), it was found that Resting ECG a
 ![image](https://github.com/user-attachments/assets/e7466b4d-6f0f-4aa8-b462-cadd6d914e71)
 
 ---
+Interpretable Models
+---
+The proposed approach in this study extends to also include the interpretation framework tools such Shapely added explanations (SHAP), Permutation Importance and Local Interpretable Model Agnostic Explanation (LIME) which is used for interpreting the three different machine learning models used in this paper. The predictions made by a model must be explained especially in this healthcare sector to help the patients as well as the physicians to decide whether an individual is likely to have a risk of attaining cardiovascular disease. Finding the characteristics or factors that affect predictions the most significantly can help in accomplishing this goal. These interpretations by the tools can offer explanations and insights into the predictions or choices the model makes.
+
+![image](https://github.com/user-attachments/assets/56eb0405-3936-46d1-a1e1-2e3ba08897d4)
+
+---
 Future Works
 ---
 The repository highlights the pertinence of SHAP, LIME and Permutation Importance methods for comprehending and interpreting the model’s predictions to pave the way for easier data driven decision by the experts. In the future, we explore the possibility of integrating these techniques and the interpretations into clinical practices to improve patient outcomes and aid in early detection of the cardiovascular diseases. We can also try to implement different hyperparameter tuning methods to see if the model responds well to the other methods as well compared to the Grid Search Cv
